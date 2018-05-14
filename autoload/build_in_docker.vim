@@ -102,8 +102,8 @@ endfunction
 
 "{{{ Misc
 
-function! build_in_docker#RunInDocker(container, command) "{{{
-  call s:RunInDocker (a:container, a:command)
+function! build_in_docker#RunInDocker(container, ...) "{{{
+  call s:RunInDocker(a:container, join(a:000, ' '))
 endfunction "}}}
 
 "}}}

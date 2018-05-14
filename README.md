@@ -29,7 +29,7 @@ g:build_in_docker_volumes='/opt/custom1:/opt/custom1 /var/log/custom:/var/log/cu
 Run a command in a container
 
 ```
-:RunInDocker container1 make\ -C\ build
+:RunInDocker container1 make -C build
 ```
 
 ## BETA VERSION
