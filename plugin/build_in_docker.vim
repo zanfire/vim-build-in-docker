@@ -18,6 +18,5 @@ let loaded_build_in_docker = 1"}}}
 "{{{ Exported command.
 
 command! -nargs=* RunInDocker call build_in_docker#RunInDocker(<f-args>)
-command! -nargs=0 CMakeInDocker call build_in_docker#CMakeInDocker()
 
 "}}}
