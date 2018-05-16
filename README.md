@@ -40,10 +40,10 @@ Run a command in a container
 
 RunInDocker support ```-cwd``` option with these values: <root>, <file>, <cwd>, path
 
- - <root> : guess the root folder.
- - <file> : path of the current file
- - <cwd> : current working directory
- - path : an absolute path
+ - `<root>` : guess the root folder.
+ - `<file>` : path of the current file
+ - `<cwd>`  : current working directory
+ - path     : an absolute path
 
 ## BETA VERSION
 
