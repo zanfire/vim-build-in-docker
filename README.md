@@ -32,6 +32,19 @@ Run a command in a container
 :RunInDocker container1 make -C build
 ```
 
+### RunInDocker options
+
+```
+:RunInDocker -cwd=<root> container1 make -C build
+```
+
+RunInDocker support ```-cwd``` option with these values: <root>, <file>, <cwd>, path
+
+ - <root> : guess the root folder.
+ - <file> : path of the current file
+ - <cwd> : current working directory
+ - path : an absolute path
+
 ## BETA VERSION
 
 This is a early beta version developed and tested only on Linux.
